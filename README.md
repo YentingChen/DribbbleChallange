@@ -31,6 +31,7 @@ The design is taken from [Dribble](https://dribbble.com/shots/11957539-Mobile-Ap
  3. Tabbar and Buttons enable switch Views and select items, not just a decoration.
 
 <h3>Reference</h3>
-1. https://github.com/gahntpo/DribbleChallenge
-2. https://github.com/AJPicard913/3D-DribbbleApp
-3. https://www.letsbuildthatapp.com/course_video?id=7092
+
+- https://github.com/gahntpo/DribbleChallenge 
+- https://github.com/AJPicard913/3D-DribbbleApp
+- https://www.letsbuildthatapp.com/course_video?id=7092
