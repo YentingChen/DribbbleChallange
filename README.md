@@ -12,8 +12,8 @@ The design is taken from [Dribble](https://dribbble.com/shots/11957539-Mobile-Ap
     <td>Zoomed Dark Mode</td>
   </tr>
   <tr>
-    <td><img src=https://img.onl/igEdEj width=270 </td>
-    <td><img src=https://img.onl/LSaCOX width=270 </td>
+    <td><img src=https://i.imgur.com/NhHrtLG.png width=270 </td>
+    <td><img src=https://i.imgur.com/h4gkKe8.png width=270 </td>
   </tr>
  </table>
  
@@ -23,8 +23,8 @@ The design is taken from [Dribble](https://dribbble.com/shots/11957539-Mobile-Ap
     <td>Zoomed Dark Mode</td>
   </tr>
   <tr>
-    <td><img src=https://img.onl/2QNel width=270 </td>
-    <td><img src=https://img.onl/bczyoo width=270 </td>
+    <td><img src=https://i.imgur.com/mFcKPQt.png width=270 </td>
+    <td><img src=https://i.imgur.com/E6wi8pR.png width=270 </td>
   </tr>
  </table>
  
