@@ -35,7 +35,7 @@ struct CardView: View {
             .padding(.top, 15)
             
         }
-        .frame(maxWidth: cardWidth, maxHeight: 320, alignment: .top)
+        .frame(width: cardWidth, height: 320, alignment: .top)
         .background(Color.asset(.BackgroundFields))
         .cornerRadius(30)
     }

@@ -11,22 +11,28 @@ struct HomeView: View {
     
     var body: some View {
         
-        VStack {
+        ScrollView {
             
-            WelcomeHeader()
-                .padding(.top, 10)
+            VStack {
+                
+                WelcomeHeader()
+                    .padding(.top, 10)
+                
+                SearchTextField()
+                    .padding(.top, /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+                
+                CardPicker()
+                    .padding(.vertical, 20)
+                
+                ProductsTitle()
+                    .padding(.top, 20)
+                
+                CardScrollView()
+                
+            }
+            .padding(.top)
+            .padding(.bottom)
             
-            SearchTextField()
-                .padding(.top, /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
-            
-            CardPicker()
-                .padding(.vertical, 20)
-            
-            ProductsTitle()
-                .padding(.top, 20)
-            
-            CardScrollView()
-                .padding(.bottom, /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
         }
         
     }

@@ -51,7 +51,8 @@ struct Tabbar: View {
         .frame(height: 84)
         .frame(maxWidth: .infinity)
         .background(Color.asset(.Primary))
-        .cornerRadius(20)
+        .cornerRadius(20, corners: [.topLeft, .topRight])
     
     }
 }
+

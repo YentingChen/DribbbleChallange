@@ -19,13 +19,14 @@ struct SearchTextField: View {
             
             HStack {
                 TextField("Search for 3D products", text: $text)
-                    .modifier(GrayBodyStyle())
-                
+                    .modifier(GrayBodyStyle()).padding(.leading, /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+                Spacer()
                 Image(systemName: "magnifyingglass")
-                    .foregroundColor(Color.asset(.Primary))
-                    .padding(.trailing, 20)
+                    .foregroundColor(Color.asset(.Primary)).aspectRatio(contentMode: .fit)
+                    .padding(.trailing, /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
             }
-            .padding()
+            .padding(.top)
+            .padding(.bottom)
             .background(RoundedRectangle(cornerRadius: 10).fill(Color("BackgroundFields")))
             
             Spacer(minLength: 30)
@@ -37,6 +38,6 @@ struct SearchTextField: View {
 
 struct SearchTextField_Previews: PreviewProvider {
     static var previews: some View {
-        SearchTextField()
+        SearchTextField().background(Color.red)
     }
 }

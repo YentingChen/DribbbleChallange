@@ -31,3 +31,10 @@ struct CardScrollView: View {
         }
     }
 }
+
+struct CardScrollView_Previews: PreviewProvider {
+    static var previews: some View {
+       CardScrollView()
+       
+    }
+}

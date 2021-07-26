@@ -21,6 +21,7 @@
 		9D2C2E9526AF1A17002780A6 /* CardPickerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2C2E9426AF1A17002780A6 /* CardPickerItem.swift */; };
 		9D2C2E9826AF1A2B002780A6 /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2C2E9726AF1A2B002780A6 /* SearchTextField.swift */; };
 		9D2C2E9B26AF1A41002780A6 /* WelcomeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2C2E9A26AF1A41002780A6 /* WelcomeHeader.swift */; };
+		9D2C2EA326AF2853002780A6 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2C2EA226AF2853002780A6 /* RoundedCorner.swift */; };
 		9D53DD2826AE67CE00204F3C /* DribbbleChallangeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D53DD2726AE67CE00204F3C /* DribbbleChallangeApp.swift */; };
 		9D53DD2A26AE67CE00204F3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D53DD2926AE67CE00204F3C /* ContentView.swift */; };
 		9D53DD2C26AE67D200204F3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D53DD2B26AE67D200204F3C /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 		9D2C2E9426AF1A17002780A6 /* CardPickerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPickerItem.swift; sourceTree = "<group>"; };
 		9D2C2E9726AF1A2B002780A6 /* SearchTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextField.swift; sourceTree = "<group>"; };
 		9D2C2E9A26AF1A41002780A6 /* WelcomeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeHeader.swift; sourceTree = "<group>"; };
+		9D2C2EA226AF2853002780A6 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
 		9D53DD2426AE67CE00204F3C /* DribbbleChallange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DribbbleChallange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D53DD2726AE67CE00204F3C /* DribbbleChallangeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DribbbleChallangeApp.swift; sourceTree = "<group>"; };
 		9D53DD2926AE67CE00204F3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 			children = (
 				9D2C2E6E26AEB8D1002780A6 /* Image+.swift */,
 				9D2C2E7126AEB8FA002780A6 /* Color+.swift */,
+				9D2C2EA226AF2853002780A6 /* RoundedCorner.swift */,
 			);
 			path = Utitlities;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				9D2C2E8926AF19B1002780A6 /* HomeView.swift in Sources */,
 				9D2C2E9826AF1A2B002780A6 /* SearchTextField.swift in Sources */,
 				9D2C2E8326AEDD53002780A6 /* CardScrollView.swift in Sources */,
+				9D2C2EA326AF2853002780A6 /* RoundedCorner.swift in Sources */,
 				9D2C2E9226AF1A02002780A6 /* CardPicker.swift in Sources */,
 				9D2C2E7A26AEDCF6002780A6 /* Product.swift in Sources */,
 				9D2C2E8626AEE05C002780A6 /* TextStyleGuide.swift in Sources */,
